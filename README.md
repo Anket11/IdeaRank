@@ -58,7 +58,6 @@ The ranking system behind IdeaRank is powered by a clever algorithm inspired by 
 
 ---
 
----
 
 
 ## *Credits and Contributions to the IdeaRank Project* 🙌  
@@ -66,7 +65,7 @@ The ranking system behind IdeaRank is powered by a clever algorithm inspired by 
 ### *1. Dhairya and Esha (Frontend & Elm Development)*  
 •⁠  ⁠Designed and implemented the user interface using HTML and CSS.  
 •⁠  ⁠Contributed to the Elm codebase, focusing on state management and UI integration.  
-•⁠  ⁠Coordinated project tasks, ensuring timely progress and proper version control using Git.  
+•⁠  ⁠Coordinated project tasks, ensuring timely progress
 •⁠  ⁠Drafted parts of the ⁠ README.md ⁠, focusing on frontend documentation and setup instructions.  
 
 ### *2. Anket and Khashayar (Elm Development & Project Coordination)*  
