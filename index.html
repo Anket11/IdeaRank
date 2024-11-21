@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Idea Fight!</title>
+
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <!-- <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css"> -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id='elm-application'></div>
+
+  <script type='text/javascript' src='js/idea-fight.js'>
+  </script>
+
+  <script type='text/javascript'>
+    let sessionState = window.sessionStorage.getItem('idea-fight-state');
+    let node = document.getElementById('elm-application');
+    let app = Elm.Main.init({ node, flags: sessionState });
+    app.ports.saveState.subscribe(function(message) {
+        window.sessionStorage.setItem('idea-fight-state', message);
+    });
+  </script>
+</body>
+</html>
