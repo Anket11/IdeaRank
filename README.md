@@ -69,7 +69,7 @@ The ranking system behind IdeaRank is powered by a clever algorithm inspired by 
 •⁠  ⁠Drafted parts of the ⁠ README.md ⁠, focusing on frontend documentation and setup instructions.  
 
 ### *2. Anket and Khashayar (Elm Development & Project Coordination)*  
-•⁠  ⁠Authored and managed the core Elm application logic in the ⁠ Main.elm ⁠ file.  
+•⁠  ⁠Authored and managed the core Elm application logic and Partial Forest Algorithm.  
 •⁠  ⁠Set up and configured ⁠ elm.json ⁠, managing dependencies.  
 •⁠  ⁠Handled responsive design and ensured cross-browser compatibility.  
 •⁠  ⁠Drafted parts of the ⁠ README.md ⁠, focusing on backend integration and project usage.
