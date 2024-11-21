@@ -11,6 +11,22 @@ With **IdeaRank**, you can:
 
 ---
 
+
+## **Getting Started** 🚀  
+
+Install ELM and Follow these steps to run IdeaRank locally:  
+
+1. **Clone the Repository**:  
+   ```bash
+   git clone https://github.com/your-repo/idearank.git
+   
+2. Build the JavaScript file using `elm make`:
+    elm make --output js/idea-fight.js Main.elm
+
+3. Open `index.html` in your browser.
+
+---
+
 ## **How It Works** 🛠️  
 
 1. **Input Your Ideas**: Start by entering a list of ideas you want to prioritize.  
@@ -44,25 +60,17 @@ The ranking system behind IdeaRank is powered by a clever algorithm inspired by 
 
 ---
 
-## **Getting Started** 🚀  
 
-Install ELM and Follow these steps to run IdeaRank locally:  
+## *Credits and Contributions to the IdeaRank Project* 🙌  
 
-1. **Clone the Repository**:  
-   ```bash
-   git clone https://github.com/your-repo/idearank.git
-   
-2. Build the JavaScript file using `elm make`:
-    elm make --output js/idea-fight.js Main.elm
+### *1. Dhairya and Esha (Frontend & Elm Development)*  
+•⁠  ⁠Designed and implemented the user interface using HTML and CSS.  
+•⁠  ⁠Contributed to the Elm codebase, focusing on state management and UI integration.  
+•⁠  ⁠Coordinated project tasks, ensuring timely progress and proper version control using Git.  
+•⁠  ⁠Drafted parts of the ⁠ README.md ⁠, focusing on frontend documentation and setup instructions.  
 
-3. Open `index.html` in your browser.
-
----
-
-## *Credits* 🙌  
-
-This project was developed by:  
-•⁠  ⁠*Khashayar Amirsohrabi*  
-•⁠  ⁠*Esha Angadi*  
-•⁠  ⁠*Anket Patil*  
-•⁠  ⁠*Dhairya Ashvin Shah*
+### *2. Anket and Khashayar (Elm Development & Project Coordination)*  
+•⁠  ⁠Authored and managed the core Elm application logic in the ⁠ Main.elm ⁠ file.  
+•⁠  ⁠Set up and configured ⁠ elm.json ⁠, managing dependencies.  
+•⁠  ⁠Handled responsive design and ensured cross-browser compatibility.  
+•⁠  ⁠Drafted parts of the ⁠ README.md ⁠, focusing on backend integration and project usage.
